@@ -87,3 +87,15 @@ input[type="button"]:hover {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: white;
+}
+
+p a:hover {
+    color: #000000;
+}
