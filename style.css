@@ -16,6 +16,18 @@ body {
     height: 100vh;
 }
 
+p {
+    font-size: 14px;
+}
+
+p a {
+    color: white;
+}
+
+p a:hover {
+    color: #000000;
+}
+
 #back {
     background: rgba(255, 255, 255, 0.1);
     padding: 30px;
@@ -86,16 +98,4 @@ input[type="button"]:hover {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-
-p {
-    font-size: 14px;
-}
-
-p a {
-    color: white;
-}
-
-p a:hover {
-    color: #000000;
 }
