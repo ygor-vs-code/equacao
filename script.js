@@ -11,6 +11,6 @@ function calcular() {
     if (delt < 0) {
         res.innerHTML = `Delta= (${delt}). Não é possível terminar a equação, pois não é possível calcular raiz quadrada de número negativo`
     } else {
-        res.innerHTML = `S= {${x1.toFixed(3)}, ${x2.toFixed(3)}}`
+        res.innerHTML = `S= {${x1.toFixed(2)}, ${x2.toFixed(2)}}`
     }
 }
